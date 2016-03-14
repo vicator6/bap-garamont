@@ -1,0 +1,42 @@
+body {
+  padding-top: 50px;
+}
+.main-container {
+  padding: 40px 15px;
+}
+
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel .item {
+	min-height: 350px; 
+	height: 100%;
+	width:100%; 
+}
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	border-radius: 50%;
+}
+
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+	-webkit-animation-delay: .5s;
+	animation-delay: .5s;
+}
+.carousel-caption h3:nth-child(2) {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.carousel-caption button {
+	-webkit-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+}
